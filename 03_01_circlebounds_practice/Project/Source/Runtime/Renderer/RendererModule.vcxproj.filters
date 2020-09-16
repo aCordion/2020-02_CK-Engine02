@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Precompiled.cpp" />
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Private\Windows\WindowsGDI.cpp">
+      <Filter>Private\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Private\Windows\WindowsRSI.cpp">
+      <Filter>Private\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Precompiled.h" />
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public\RendererHeaders.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public\RenderingSoftwareInterface.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public\Windows\WindowsGDI.h">
+      <Filter>Public\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public\Windows\WindowsRSI.h">
+      <Filter>Public\Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Private">
+      <UniqueIdentifier>{C8173F52-435A-3AEE-8DAD-7B55290B45DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Windows">
+      <UniqueIdentifier>{3627D760-05A2-38A3-8B50-1F960BD42D42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{B7613C5D-7CB5-33CC-AD1A-12E84BBA0CB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\Windows">
+      <UniqueIdentifier>{CE245E92-EFA5-38FE-B5C9-827839349107}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

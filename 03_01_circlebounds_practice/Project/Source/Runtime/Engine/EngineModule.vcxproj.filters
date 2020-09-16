@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Precompiled.cpp" />
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Private\2D\Camera.cpp">
+      <Filter>Private\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Private\2D\GameEngine.cpp">
+      <Filter>Private\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Private\2D\GameObject.cpp">
+      <Filter>Private\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Private\2D\Mesh.cpp">
+      <Filter>Private\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Private\2D\Transform.cpp">
+      <Filter>Private\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Private\InputManager.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Precompiled.h" />
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public\2D\Camera.h">
+      <Filter>Public\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public\2D\GameEngine.h">
+      <Filter>Public\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public\2D\GameObject.h">
+      <Filter>Public\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public\2D\Mesh.h">
+      <Filter>Public\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public\2D\Transform.h">
+      <Filter>Public\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public\EngineHeaders.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public\InputManager.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Private">
+      <UniqueIdentifier>{C8173F52-435A-3AEE-8DAD-7B55290B45DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\2D">
+      <UniqueIdentifier>{6D746AB6-D8D7-3B4A-BC76-E8976E383A75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{B7613C5D-7CB5-33CC-AD1A-12E84BBA0CB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\2D">
+      <UniqueIdentifier>{54062F6C-9F2E-32B9-814B-2466D92720ED}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

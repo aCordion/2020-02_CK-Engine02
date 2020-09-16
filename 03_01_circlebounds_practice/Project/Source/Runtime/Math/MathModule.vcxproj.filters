@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Precompiled.cpp" />
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Private\Circle.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Private\Color32.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Private\LinearColor.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Private\Math.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Private\Matrix2x2.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Private\Matrix3x3.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Private\Matrix4x4.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Private\Rectangle.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Private\Vector2.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Private\Vector3.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Private\Vector4.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Precompiled.h" />
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public\Circle.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public\Color32.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public\CoreDefinition.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public\LinearColor.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public\MathHeaders.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public\MathUtil.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public\Matrix2x2.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public\Matrix3x3.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public\Matrix4x4.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public\Platform.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public\Rectangle.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public\ScreenPoint.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public\Vector2.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public\Vector3.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public\Vector4.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public\Windows\WindowsPlatform.h">
+      <Filter>Public\Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Private">
+      <UniqueIdentifier>{C8173F52-435A-3AEE-8DAD-7B55290B45DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{B7613C5D-7CB5-33CC-AD1A-12E84BBA0CB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public\Windows">
+      <UniqueIdentifier>{CE245E92-EFA5-38FE-B5C9-827839349107}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

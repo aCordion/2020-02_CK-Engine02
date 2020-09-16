@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BD3A935B-81D0-3C9D-A963-FF095B22E85D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>SoftRendererPlayer</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/ChungKang/GitHub/2020-02_CK-Engine02_Week03/03_01_circlebounds_practice/Resource</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Output\Windows\Binary\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SoftRendererPlayer.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SoftRendererPlayer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/ChungKang/GitHub/2020-02_CK-Engine02_Week03/03_01_circlebounds_practice/Resource</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Output\Windows\Binary\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SoftRendererPlayer.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SoftRendererPlayer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/ChungKang/GitHub/2020-02_CK-Engine02_Week03/03_01_circlebounds_practice/Resource</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Output\Windows\Binary\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SoftRendererPlayer.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">SoftRendererPlayer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/ChungKang/GitHub/2020-02_CK-Engine02_Week03/03_01_circlebounds_practice/Resource</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Output\Windows\Binary\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SoftRendererPlayer.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SoftRendererPlayer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;PLATFORM_WINDOWS;Windows;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;PLATFORM_WINDOWS;Windows;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\Output\Windows\Library\Debug\MathModule.lib;..\..\..\Output\Windows\Library\Debug\RendererModule.lib;..\..\..\Output\Windows\Library\Debug\EngineModule.lib;..\..\..\Output\Windows\Library\Debug\RendererModule.lib;..\..\..\Output\Windows\Library\Debug\MathModule.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ChungKang/GitHub/2020-02_CK-Engine02_Week03/03_01_circlebounds_practice/Project/Source/Player/Debug/SoftRendererPlayer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ChungKang/GitHub/2020-02_CK-Engine02_Week03/03_01_circlebounds_practice/Output/Windows/Binary/Debug/SoftRendererPlayer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;Windows;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;Windows;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\Output\Windows\Library\Release\MathModule.lib;..\..\..\Output\Windows\Library\Release\RendererModule.lib;..\..\..\Output\Windows\Library\Release\EngineModule.lib;..\..\..\Output\Windows\Library\Release\RendererModule.lib;..\..\..\Output\Windows\Library\Release\MathModule.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ChungKang/GitHub/2020-02_CK-Engine02_Week03/03_01_circlebounds_practice/Project/Source/Player/Release/SoftRendererPlayer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ChungKang/GitHub/2020-02_CK-Engine02_Week03/03_01_circlebounds_practice/Output/Windows/Binary/Release/SoftRendererPlayer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;Windows;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;Windows;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\Output\Windows\Library\MinSizeRel\MathModule.lib;..\..\..\Output\Windows\Library\MinSizeRel\RendererModule.lib;..\..\..\Output\Windows\Library\MinSizeRel\EngineModule.lib;..\..\..\Output\Windows\Library\MinSizeRel\RendererModule.lib;..\..\..\Output\Windows\Library\MinSizeRel\MathModule.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ChungKang/GitHub/2020-02_CK-Engine02_Week03/03_01_circlebounds_practice/Project/Source/Player/MinSizeRel/SoftRendererPlayer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ChungKang/GitHub/2020-02_CK-Engine02_Week03/03_01_circlebounds_practice/Output/Windows/Binary/MinSizeRel/SoftRendererPlayer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;Windows;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;Windows;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Math\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Engine\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public;D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Runtime\Renderer\Public\Windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\..\Output\Windows\Library\RelWithDebInfo\MathModule.lib;..\..\..\Output\Windows\Library\RelWithDebInfo\RendererModule.lib;..\..\..\Output\Windows\Library\RelWithDebInfo\EngineModule.lib;..\..\..\Output\Windows\Library\RelWithDebInfo\RendererModule.lib;..\..\..\Output\Windows\Library\RelWithDebInfo\MathModule.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ChungKang/GitHub/2020-02_CK-Engine02_Week03/03_01_circlebounds_practice/Project/Source/Player/RelWithDebInfo/SoftRendererPlayer.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ChungKang/GitHub/2020-02_CK-Engine02_Week03/03_01_circlebounds_practice/Output/Windows/Binary/RelWithDebInfo/SoftRendererPlayer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Precompiled.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Precompiled.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Precompiled.h" />
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\SoftRenderer.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Precompiled.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\SoftRenderer.h" />
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\SoftRenderer2D.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Precompiled.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows\Res\resource.h" />
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows\WindowsApp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Precompiled.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows\WindowsPlayer.h" />
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows\WindowsUtil.h" />
+    <None Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows\Res\player.ico" />
+    <ResourceCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows\Res\player.rc" />
+    <None Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows\Res\player_small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Project\Source\Runtime\Engine\EngineModule.vcxproj">
+      <Project>{3C1C9175-4CC5-32B9-AE70-646298B7E9B6}</Project>
+      <Name>EngineModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Project\Source\Runtime\Math\MathModule.vcxproj">
+      <Project>{7C2DF193-F53F-3493-9546-EEE91704EBCE}</Project>
+      <Name>MathModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Project\Source\Runtime\Renderer\RendererModule.vcxproj">
+      <Project>{EE3DDE9D-509B-39F5-8C99-78E4B238DEE6}</Project>
+      <Name>RendererModule</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Precompiled.cpp" />
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\SoftRenderer.cpp" />
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\SoftRenderer2D.cpp" />
+    <ClCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows\WindowsApp.cpp">
+      <Filter>Private\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Precompiled.h" />
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\SoftRenderer.h" />
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows\Res\resource.h">
+      <Filter>Private\Windows\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows\WindowsPlayer.h">
+      <Filter>Private\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows\WindowsUtil.h">
+      <Filter>Private\Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows\Res\player.ico">
+      <Filter>Private\Windows\Res</Filter>
+    </None>
+    <None Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows\Res\player_small.ico">
+      <Filter>Private\Windows\Res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\ChungKang\GitHub\2020-02_CK-Engine02_Week03\03_01_circlebounds_practice\Source\Player\Private\Windows\Res\player.rc">
+      <Filter>Private\Windows\Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Private">
+      <UniqueIdentifier>{C8173F52-435A-3AEE-8DAD-7B55290B45DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Windows">
+      <UniqueIdentifier>{3627D760-05A2-38A3-8B50-1F960BD42D42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Windows\Res">
+      <UniqueIdentifier>{2A98A35A-95A8-3625-BB05-3DE076CFF3AA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
